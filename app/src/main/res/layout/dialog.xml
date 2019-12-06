@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="[ ALBUM ]"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edtAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" [ SINGER ]"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edtSinger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

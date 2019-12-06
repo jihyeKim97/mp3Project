@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="kimColor_skyBlue">#47C9B7</color>
+    <color name="kimColor_SkyBlue1">#29B6F6</color>
+    <color name="Kim_FFFF9172">#FF9172</color>
+    <color name="Kim_FFFDCE4C">#FDCE4C</color>
+    <color name="Kim_FF4CFDA5">#4CFDA5</color>
+    <color name="Kim_FF4CFDFD">#4CFDFD</color>
+    <color name="Kim_FFDD4CFD">#DD4CFD</color>
+    <color name="kim_FFFFB638">#FFB638</color>
+</resources>

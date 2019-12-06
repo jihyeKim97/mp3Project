@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listViewMP3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnTxtSeek" />
+
+    <LinearLayout
+        android:id="@+id/btnTxtSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/kim_FFFFB638"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#C7C7C7" />
+
+            <TextView
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/textViewPlayingState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/seekBar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint=" 00:00 "
+                android:textColor="#ffffff"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewPlayingMusicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/textViewPlayingState"
+            android:layout_marginBottom="10dp"
+            android:text="Running music  :  "
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/kim_FFFFB638"
+            android:layout_above="@id/textViewPlayingMusicName"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btPlay"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/kim_FFFFB638"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/pika"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btPause"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/kim_FFFFB638"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ball"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btMyList"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/kim_FFFFB638"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ggobukk"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
